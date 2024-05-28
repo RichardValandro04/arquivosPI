@@ -1,0 +1,46 @@
+form#formato{
+    align-items: center;
+    margin-left:40%;
+    margin-top: 5%;
+}
+h2{
+    text-align: center;
+    color: rgb(78, 179, 78);
+    
+}
+
+body{
+  background-color: rgb(247, 217, 247);
+
+
+}
+.form-group input
+ {
+    width: 30%;
+    background-color: rgb(240, 118, 240);
+    border-radius: 8%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;    
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 100px; /* Ajuste o valor conforme necessário */
+    width: 8%;
+    border-radius: 15%;
+    text-align: center;
+    margin-right: 10px;
+    background-color: forestgreen;
+    
+}
+button{
+    background-color: forestgreen;
+    color: #ffffff;
+    margin-left: 20%;
+    margin-top: 3%;
+
+}
+

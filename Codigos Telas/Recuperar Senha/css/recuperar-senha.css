@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/*Configuração da página HTML*/
 html {
     font-size: 62.5%;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif
 }
 
-/*Configuração de todos os elementos*/
 *{
     outline: 0;
     margin: 0;
@@ -14,7 +12,6 @@ html {
     box-sizing: border-box;
 }
 
-/*Configuração do corpo do HTML*/
 body {
     height: 100vh;
     display: flex;
@@ -22,41 +19,43 @@ body {
     background-color: #feebeb;
 }
 
-/*Configuração da tag "p"*/
-p{
-    color: red;
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-top: 0.7rem;
+.divflor {
+    display: flex;
+    justify-content: flex-end;
 }
 
-/*Configuração do header*/
+footer {
+    display: flex;
+    margin-top: auto;
+}
+
+.tulipas,
+.tulipasbaixo {
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
 header {
     display: flex;
     flex-direction: line;
 }
 
-
 header>div {
     flex-grow: 1;
 }
 
-/*Configuração da div que inclui a logo*/
-.divlogo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: start;
-}
-
-/*Configuração da logo localizada no header*/
 .logo {
     margin: 2rem;
     max-width: 15rem;
     max-height: 15rem;
 }
 
+.divlogo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
 
-/*Configuração do texto principal  "Mirian Cakes Confeitaria Artesanal"*/
 header>div>h1{
     color: #adb895;
     font-size: 3rem;
@@ -65,69 +64,45 @@ header>div>h1{
     margin-left: 2rem;
 }
 
-/*Configuração da div que contém a imagem da tulipa superior*/
-.divflor {
-    display: flex;
-    justify-content: flex-end;
-}
-
-/*Configuração do container principal */
-.container{
-    margin-top: 8rem;
+nav{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
-    justify-content: center;
+    justify-content: flex-start;
 
 }
 
-
-.container>div{
-    padding: 2rem;
-}
-
-
-.container>div>label{
+nav>div>label{
     color: #adb895;
     font-size: 2rem;
     font-weight: bold;
-    
 }
 
-
-.container>div>input{
+nav>div>input{
     background-color: #FACECE;
     width: 100%;
     border: none;
     height: 3rem;
     border-radius: 0.5rem;
+    
 }
 
-/*Configuração dos campos de nova senha e confirmar nova senha*/
-.nova-senha, .confirmar-senha{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 40%;
+p{
+    color: #adb895;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-left: 2rem;
 }
 
-
-.nova-senha > input, .confirmar-senha > input{
-    height: 5rem;
+nav>div{
     padding: 2rem;
 }
 
-
-.confirmar-senha{
-    justify-content: flex-start;
-}
-
-/*Configuração do botão de alterar nova senha*/
 .botao_alterar{
-    margin-top: auto;
+
     background-color: #adb895;
     color: #feebeb;
     border: none;
@@ -138,24 +113,15 @@ header>div>h1{
     font-weight: bold;
 }
 
-
 .botao_alterar:hover{
     scale: 1.05;
     filter: grayscale(30%);
 }
 
-/*Configuração do footer*/
-footer {
-    display: flex;
-    margin-top: auto;
-}
-
-
 footer>div{
  flex-grow: 1;
 }
 
-/*Configuração da div "voltar"*/
 .voltar{
     display: flex;
     flex-direction: column;
@@ -163,7 +129,6 @@ footer>div{
     justify-content: center;
 }
 
-/*Configuração do icone de voltar*/
 .voltar-icon {
     display: flex;
     flex-direction: column;
@@ -172,21 +137,36 @@ footer>div{
     margin-bottom: 1rem;
 }
 
-
 .voltar-icon:hover {
     background-color: #adb8957a;
     border-radius: 100%;
     scale: 1.05;
 }
 
-/*Configuração da imagem da div "voltar"*/
 .voltar-icon>img {
     max-width: 12rem;
 }
 
-/*Configuração da imagem das tulipas*/
-.tulipas,
-.tulipasbaixo {
-    max-width: 20rem;
-    max-height: 20rem;
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 40%;
+}
+
+.email > input{
+    height: 5rem;
+    padding: 2rem;
+}
+
+.email{
+    justify-content: flex-start;
+}
+
+.texto-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
 }
