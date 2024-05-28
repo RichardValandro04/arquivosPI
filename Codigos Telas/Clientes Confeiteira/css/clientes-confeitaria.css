@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/* Setando font-size e cor de fundo da página */
+html {
+    font-size: 62.5%;
+    background-color: #FEEBEB;
+}
+
+/* Reset da página */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* Setando o tamanho do body em 100% do viewport e display flex */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configurações do header com a logo e saudação ao usuário logado */
+.saudacao-logado {
+    background-color: #ADB895;
+    max-width: 25%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+/* Logo da empresa */
+#img-mirian {
+    padding: 0.7rem;
+    max-width: 7rem;
+    max-height: 7rem;
+    background-color: #FEEBEB;
+    border-radius: 50%;
+}
+
+/* Texto de saudação */
+#txt-ola-mirian {
+    font-family: "kalam", cursive;
+    font-style: normal;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    margin-left: 1rem;
+    color: #FEEBEB;
+    margin-top: 1.3rem;
+}
+
+/* Configurações do identificador da página, que possui ícone de clientes e texto "Clientes" */
+.identificador-pagina {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.identificador-pagina>img {
+    max-width: 8rem;
+    margin-left: 1rem;
+}
+
+.identificador-pagina>p {
+    font-family: "Inter", sans-serif;
+    color: #ADB895;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+
+}
+
+
+/* Configurações da Section que engloba a tabela de clientes */
+.clientes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/* Configurações da tabela */
+.tabela-clientes {
+    background-color: #adb8958f;
+    border-radius: 2rem;
+    padding: 1rem;
+    border-spacing: 0;
+    border: #d17587 solid 0.4rem;
+}
+
+th {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    padding: 0rem 8rem;
+    color: #d17587;
+
+}
+
+td {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    padding: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.linha-tabela:hover{
+    background-color: #adb89573;
+    
+}
+
+.telefone {
+    border-left: #d17587 solid 0.1rem;
+    border-right: #d17587 solid 0.1rem;
+}
+/* Fim Configurações da tabela */
+
+
+
+/* Configurações footer, setando-o no fim da página */
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+/* Configurações de tamanho e hover do ícone */
+.icone-voltar{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    max-width: 12rem;
+}
+
+.icone-voltar:hover {
+    background-color: #adb8957a;
+    border-radius: 100%;
+    scale: 1.05;
+}
+
+
