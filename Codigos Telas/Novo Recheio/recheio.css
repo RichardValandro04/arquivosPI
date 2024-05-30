@@ -22,6 +22,7 @@ body {
     background-color: #feebeb;
 }
 
+/*configuração do header da página*/
 header{
     padding: 10rem;
     display: flex;
@@ -34,6 +35,7 @@ header > h1{
     color: #ADB895;
 }
 
+/*configuração do container principal*/
 .container{
     display: flex;
     flex-direction: column;
@@ -42,6 +44,7 @@ header > h1{
     height: 100vh;
 }
 
+/*configuração dos campos do header*/
 .campos{
     display: flex;
     flex-direction: line;
@@ -72,6 +75,7 @@ header > h1{
     width: 70rem;
 }
 
+/*configuração do button do container*/
 button{
     margin-top: 14rem;
     background-color: #adb895;
@@ -89,25 +93,28 @@ button:hover {
     scale: 1.05;
 }
 
+
+/*Configuração do footer*/
 footer {
     display: flex;
     justify-content: flex-end;
     margin-top: auto;
 }
 
-.voltar-icon {
+/*Configuração do icone de voltar*/
+.voltar_icon {
     display: flex;
     flex-direction: column;
     margin-right: 2rem;
     margin-bottom: 1rem;
 }
 
-.voltar-icon:hover {
+.voltar_icon:hover {
     background-color: #adb8957a;
     border-radius: 100%;
     scale: 1.05;
 }
 
-.voltar-icon>img {
+.voltar_icon>img {
     max-width: 12rem;
 }

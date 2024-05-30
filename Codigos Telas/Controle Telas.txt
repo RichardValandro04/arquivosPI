@@ -5,18 +5,16 @@
 100%	Pos Login Confeiteira (H)
 100%	Pedidos Confeiteira (H)
 100%	Nova Senha (J)
-	Novo Recheio (C)
-	Recuperar Senha (J)
+100%	Dados Cliente (E)
+100%	Novo Doce
+100%	Novo Recheio (C)
+100%	Recuperar Senha (J)
 	Registro (J)
 
 ------------- Elisama ---------------------
 	Pedidos Cliente
-	Dados Cliente
 	Cardápio Confeiteira
 	Novo Pedido
-
-------------- Cristiano  ---------------------
-	Novo Doce
 
 ------------- Henrique  ---------------------
 	Cardápio Cliente

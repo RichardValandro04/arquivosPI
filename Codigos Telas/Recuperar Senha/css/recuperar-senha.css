@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/*Configuração da página HTML*/
 html {
     font-size: 62.5%;
     font-family: "Inter", sans-serif
 }
 
+/*Configuração de todos os elementos*/
 *{
     outline: 0;
     margin: 0;
@@ -12,6 +14,7 @@ html {
     box-sizing: border-box;
 }
 
+/*Configuração do corpo do HTML*/
 body {
     height: 100vh;
     display: flex;
@@ -19,22 +22,16 @@ body {
     background-color: #feebeb;
 }
 
-.divflor {
-    display: flex;
-    justify-content: flex-end;
+/*Configuração da tag "p"*/
+p{
+    color: #adb895;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-left: 2rem;
 }
 
-footer {
-    display: flex;
-    margin-top: auto;
-}
-
-.tulipas,
-.tulipasbaixo {
-    max-width: 20rem;
-    max-height: 20rem;
-}
-
+/*Configuração do header*/
 header {
     display: flex;
     flex-direction: line;
@@ -44,18 +41,21 @@ header>div {
     flex-grow: 1;
 }
 
-.logo {
-    margin: 2rem;
-    max-width: 15rem;
-    max-height: 15rem;
-}
-
+/*Configuração da div que inclui a logo*/
 .divlogo {
     display: flex;
     justify-content: flex-start;
     align-items: start;
 }
 
+/*Configuração da logo localizada no header*/
+.logo {
+    margin: 2rem;
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+/*Configuração do texto principal  "Mirian Cakes Confeitaria Artesanal"*/
 header>div>h1{
     color: #adb895;
     font-size: 3rem;
@@ -64,7 +64,14 @@ header>div>h1{
     margin-left: 2rem;
 }
 
-nav{
+/*Configuração da div que contém a imagem da tulipa superior*/
+.divflor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Configuração do container principal */
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,13 +81,13 @@ nav{
 
 }
 
-nav>div>label{
+.container>div>label{
     color: #adb895;
     font-size: 2rem;
     font-weight: bold;
 }
 
-nav>div>input{
+.container>div>input{
     background-color: #FACECE;
     width: 100%;
     border: none;
@@ -89,19 +96,40 @@ nav>div>input{
     
 }
 
-p{
-    color: #adb895;
-    font-size: 3rem;
-    font-weight: bold;
-    margin-top: 8rem;
-    margin-left: 2rem;
-}
-
-nav>div{
+.container>div{
     padding: 2rem;
 }
 
-.botao_alterar{
+/*configuração do texto que fica centralizado na página*/
+.texto-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+/*configuração da div "email"*/
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 40%;
+}
+
+
+.email > input{
+    height: 5rem;
+    padding: 2rem;
+}
+
+.email{
+    justify-content: flex-start;
+}
+
+
+/*configuração do botão "enviar"*/
+.botao_enviar{
 
     background-color: #adb895;
     color: #feebeb;
@@ -118,10 +146,19 @@ nav>div{
     filter: grayscale(30%);
 }
 
+/*Configuração do footer*/
+footer {
+    display: flex;
+    margin-top: auto;
+}
+
+
+
 footer>div{
  flex-grow: 1;
 }
 
+/*Configuração da div "voltar"*/
 .voltar{
     display: flex;
     flex-direction: column;
@@ -129,7 +166,8 @@ footer>div{
     justify-content: center;
 }
 
-.voltar-icon {
+/*Configuração do icone de voltar*/
+.voltar_icon {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -137,36 +175,20 @@ footer>div{
     margin-bottom: 1rem;
 }
 
-.voltar-icon:hover {
+.voltar_icon:hover {
     background-color: #adb8957a;
     border-radius: 100%;
     scale: 1.05;
 }
 
-.voltar-icon>img {
+.voltar_icon>img {
     max-width: 12rem;
 }
 
-.email{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 40%;
+/*Configuração da imagem das tulipas*/
+.tulipas,
+.tulipasbaixo {
+    max-width: 20rem;
+    max-height: 20rem;
 }
 
-.email > input{
-    height: 5rem;
-    padding: 2rem;
-}
-
-.email{
-    justify-content: flex-start;
-}
-
-.texto-central{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10rem;
-}
