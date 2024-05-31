@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*configuração da página*/
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+}
+
+/*configuração de todos os elementos*/
+* {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*configuração do corpo da página*/
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #feebeb;
+}
+
+/*configuração do header da página*/
+header {
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>h1 {
+    font-size: 5rem;
+    color: #ADB895;
+}
+
+/*configuração do container principal*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*configuração dos campos do header*/
+.campos {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+
+}
+
+.campos>label {
+    background-color: #ADB895;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    color: #feebeb;
+    border-radius: 1.3rem;
+    margin-right: 1rem;
+    font-weight: bold;
+
+}
+
+.campos>input {
+    padding: 2rem;
+    background-color: #FACECE;
+    border: none;
+    border-radius: 1.3rem;
+    height: 100%;
+    width: 70rem;
+}
+
+/*configuração do button do container*/
+button {
+    margin-top: 14rem;
+    background-color: #adb895;
+    color: #feebeb;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+button:hover {
+    filter: grayscale(40%);
+    scale: 1.05;
+}
+
+
+/*Configuração do footer*/
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+/*Configuração do icone de voltar*/
+.icone_voltar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.icone_voltar:hover {
+    background-color: #adb8957a;
+    border-radius: 100%;
+    scale: 1.05;
+}
+
+.icone_voltar>img {
+    max-width: 12rem;
+}
