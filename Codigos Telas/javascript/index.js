@@ -1,3 +1,12 @@
+// capturando div com carrossel e logo do instagram
+const abre_instagram = document.querySelector(".abrir_instagram");
+
+// adicionando evento de click para direcionar a uma nova aba com o instagram da empresa
+const url_instagram = "https://www.instagram.com/miriancakes_confeitaria/";
+
+abre_instagram.addEventListener("click", () => {window.open(url_instagram, '_blank')})
+
+
 // Captura o botao de login e adicionando evento para abrir home confeiteira
 const botao_login = document.querySelector(".botaologin");
 botao_login.addEventListener("click", () => {window.location.href = "/home_confeiteira.html"});

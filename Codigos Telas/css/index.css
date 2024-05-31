@@ -3,6 +3,7 @@
 /*configuração da página*/
 html {
     font-size: 62.5%;
+    font-family: "Inter", sans-serif;
 }
 
 /*configuração de todos os elementos*/
@@ -93,11 +94,9 @@ article>#senha {
 }
 
 article>label {
-    font-family: arial;
     font-size: 3rem;
     color: #d17587;
 }
-
 .botaologin {
     background-color: #ADB895;
     color: #FEEBEB;
@@ -107,7 +106,6 @@ article>label {
     width: 30%;
     margin-top: 2rem;
     margin-left: 35rem;
-    font-family: arial;
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -122,9 +120,8 @@ article>label {
     font-weight: bold;
     border: none;
     background-color: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7rem;
-    width: 35%;
+    width: 37%;
 }
 
 /*fim da configuração do login*/
@@ -153,7 +150,7 @@ article>label {
 
 /*configuração do carrosel*/
 .carrossel {
-    box-shadow: 0.2rem 0.2rem 0.4rem black;
+    box-shadow: 0.2rem 0.2rem black;
     overflow: hidden;
     height: 25rem;
     width: 50rem;
@@ -163,7 +160,6 @@ article>label {
 }
 
 .fotocarrossel {
-
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
@@ -171,19 +167,26 @@ article>label {
 
 }
 
-.registro>p {
+.abrir_instagram > p {
+    display: flex;
+    justify-content: center;
     padding: 0.5rem;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #FEEBEB;
     background-color: #d17587;
-    width: 18rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-    display: flex;
-    margin-right: 32rem;
+    width: 47%;
+}
 
+.logo_instagram{
+    position: absolute;
+    z-index: 1;
+    margin-top: -4rem;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 46rem;
 }
 
 /*fim da configuração do carrossel*/
@@ -198,13 +201,11 @@ article>label {
     padding: 1rem;
     height: 5rem;
     margin-top: 2.5rem;
-    font-family: arial;
     font-size: 1.8rem;
     font-weight: bold;
 }
 
 img {
-
     height: 25rem;
     width: 50rem;
 
