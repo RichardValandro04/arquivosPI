@@ -1,0 +1,310 @@
+/*configuração da página html*/
+html{
+    font-size: 62.5%;
+    background-color: #feebeb ;
+}
+
+/*configuração de todos os elementos da página*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*configuração do header*/
+.header_ofc{
+    background-color: #adb895;
+    max-width: 25vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+/*configuração da logo do header*/
+.logo{
+    width: 15rem;
+    height: 15rem;
+    background-color: #feebeb;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+/*configuração da saudação que fica junto da logo*/
+.user{
+    font-size: 5rem;
+    color: #feebeb;
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    font-family: "kalam", cursive;
+    
+}
+
+/*configuração da div que agrupa o icone e a mensagem de pedidos, logo abaixo do header*/
+.text_info{
+ 
+    max-width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    
+
+}
+
+
+/*configuração da mensagem "pedidos", abaixo do header*/
+.pedid{
+    font-size: 4rem;
+    color: #adb895;
+    font-family: "Inter", sans-serif;  
+}
+
+/*configuração da imagem da div "text-info"*/
+.imgpedid{
+    
+    filter: invert(56%) sepia(93%) saturate(363%) hue-rotate(303deg) brightness(88%) contrast(84%);
+    width: 10rem;
+    
+}
+
+/*configuração da div que agrupa as informações no meio da tela*/
+.container{
+    width: 115rem;
+    height: 45rem;
+    border: solid 1rem #adb895;
+    text-align: center;
+    background-color:#adb8958c;
+    display: flex;
+    margin-left: 22%;
+    margin-top: -2%;
+    
+}
+
+/*div que agrupa a tabela*/
+.caixa{
+    
+    max-width: 115vw;
+    max-height: 50vh;
+    width: 112rem;
+    height: 100rem;
+    border: none #adb895;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+/*configuração da tabela*/
+.section_table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+th{
+    font-family: "inter", sans-serif;
+    font-size: 2rem;
+    padding: 0rem 7rem;
+    color: #d17587;
+
+}
+
+td {
+    
+    font-family: "inter", sans-serif; 
+    font-size: 3rem;
+    padding: 3rem;
+    text-align: center;
+    background-color: #d17587;
+    
+    
+}
+
+
+
+
+.numero_pedido{
+    border-radius: 10rem 0rem 0rem 10rem;
+    
+    
+}
+
+
+
+.coluna_botao{
+    border-radius: 0rem 10rem 10rem 0rem;
+    font-size: 1.3rem;
+    
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+
+
+.btn_aceitar{
+    color: #facece;
+    font-weight: bold;
+    margin-right: 1rem;
+    background-color: #7edd83c4;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn_recusar{
+    font-weight: bold;
+    color: #facece;
+    background-color: #fc4747;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+
+}
+
+.btn_aceitar:hover{
+    filter: brightness(90%);
+    scale: 1.04;
+}
+
+
+.btn_recusar:hover{
+    filter: brightness(90%);
+    scale: 1.04;
+}
+
+
+.tabela_cliente{
+        
+    border-spacing: 0rem 2rem;
+    display: flex;
+    margin-left: 4rem;
+    
+    
+}
+/*fim da configuração da tabela*/
+
+
+/*configuração da table que agrupa as situações dos pedidos*/
+.menu_situacao{
+    margin-bottom:5rem;
+
+}
+
+
+.container_situacao{
+    
+    text-align: center;
+    margin-left: 5.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+
+}
+
+.situacao_aguardando{
+    
+    font-family: "inter", sans-serif;
+    font-size: 2.5rem;
+    padding: 0rem 5rem;
+    color: #d17587;
+    cursor: pointer;
+    
+}
+
+.situacao_andamento{
+    
+    font-family: "inter", sans-serif;
+    font-size: 2.5rem;
+    padding: 0rem 5rem;
+    color: #d17587;
+    border-left: solid 0.1rem;
+    cursor: pointer;
+
+}
+
+.situacao_concluidos{
+    
+    font-family: "inter", sans-serif;
+    font-size: 2.5rem;
+    padding: 0rem 5rem;
+    color: #d17587;
+    border-left: solid 0.1rem;
+    cursor: pointer;
+}
+
+.situacao_cancelados{
+    
+    font-family: "inter", sans-serif;
+    font-size: 2.5rem;
+    padding: 0rem 5rem;
+    color: #d17587;
+    border-left: solid 0.1rem;
+    cursor: pointer;
+    
+}
+
+.situacao_aguardando:hover{
+    
+    background-color: #adb895ad;
+    border-radius: 10rem;
+    
+}
+
+.situacao_andamento:hover{
+    
+    background-color: #adb895ad;
+    border-radius: 10rem;
+    
+
+}
+
+.situacao_concluidos:hover{
+    
+    background-color: #adb895ad;
+    border-radius: 10rem;
+}
+
+.situacao_cancelados:hover{
+    
+    background-color: #adb895ad;
+    border-radius: 10rem;
+}
+/*fim da configuração das situações*/
+
+
+/*configuração do footer*/
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    
+}
+
+.icone_voltar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.icone_voltar:hover {
+    background-color: #adb8957a;
+    border-radius: 100%;
+    scale: 1.05;
+}
+
+.icone_voltar>img {
+    max-width: 12rem;
+}

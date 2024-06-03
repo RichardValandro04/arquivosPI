@@ -9,7 +9,7 @@ abre_instagram.addEventListener("click", () => {window.open(url_instagram, '_bla
 
 // Captura o botao de login e adicionando evento para abrir home confeiteira
 const botao_login = document.querySelector(".botaologin");
-botao_login.addEventListener("click", () => {window.location.href = "/home_confeiteira.html"});
+botao_login.addEventListener("click", () => {window.location.href = "/home_confeitaria.html"});
 
 //capturando botao esqueci senha e adicionando evento para abrir tela de esqueci senha
 const esquecisenha = document.querySelector(".esquecisenha");

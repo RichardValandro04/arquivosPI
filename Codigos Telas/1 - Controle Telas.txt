@@ -9,12 +9,8 @@
 100%	Novo Recheio (C)
 100%	Recuperar Senha (J)
 100%	Registro (J)
-
-------------- Elisama ---------------------
-	Pedidos Cliente
-	Cardápio Confeiteira
-	Novo Pedido
-
-------------- Henrique  ---------------------
-	Cardápio Cliente
-	Pedidos Confeiteira (H)
+100%	Cardápio Cliente (H)
+100%	Pedidos Confeiteira (H)
+100%	Novo Pedido
+100%	Pedidos Cliente (E)
+100%	Cardápio Confeiteira(E)
