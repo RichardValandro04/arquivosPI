@@ -157,8 +157,14 @@ label {
     margin-left: 8rem;
 }
 
-.campo_senha {
-    margin-left: 41rem;
+.campo_senha{
+    margin-left: 49rem;
+}
+
+.linha_senha {
+    display: flex;
+    align-items: flex-end;
+
 }
 
 .campo_email,
@@ -253,9 +259,7 @@ footer>div {
 
 
 /* configuração para telas maiores ( foram realizados apenas pequenos ajustes ) */
-@media (min-width: 1920px) {
-
-
+@media (min-width: 1872px) {
     /* H  E  A  D  E  R */
     header {
         display: flex;
@@ -367,10 +371,6 @@ footer>div {
 
     .campo_telefone {
         margin-left: 8rem;
-    }
-
-    .campo_senha {
-        margin-left: 50rem;
     }
 
     .campo_email,

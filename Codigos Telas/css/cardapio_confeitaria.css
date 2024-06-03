@@ -28,6 +28,7 @@ html {
 /*CONFIGURAÇÕES DO HEADER*/
 header {
     background-color: #ADB895;
+    padding: 1rem;
 }
 
 /*Configurações do header com a logo e saudação ao usuário logado*/

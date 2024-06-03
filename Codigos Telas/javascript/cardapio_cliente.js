@@ -4,20 +4,22 @@ botao_pedido.addEventListener("click", () => {window.location.href = "/novo_pedi
 
 // ------------------------------------------------ //
 
+// Capturando os botões de abrir e fechar o modal e o próprio modal
 const abrirModal = document.getElementById("div_carrinho");
 const modal = document.querySelector("dialog")
 const fecharModal = document.getElementById("fechar");
 
+// Função que abre modal
 abrirModal.onclick=function(){
     modal.show();
     
 }
 
+// Função que fecha modal
 fecharModal.onclick=function(){
     modal.close();
     
 }
-
 // ------------------------------------------------ //
 
 // Limite de checkboxes que podem ser marcados
@@ -41,6 +43,8 @@ checkboxes.forEach(function(checkbox) {
 
 // ------------------------------------------------ //
 
+
+// Capturando todos icones de carrinho
 var carrinhos = document.querySelectorAll(".carrinho_buy");
 
 carrinhos.forEach(function(carrinho) {
