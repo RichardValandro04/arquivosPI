@@ -1,0 +1,16 @@
+
+100%	Pos Login Cliente (J)
+100%	Clientes Confeitaria (R)
+100%	Login (H)
+100%	Pos Login Confeiteira (H)
+100%	Nova Senha (J)
+100%	Dados Cliente (E)
+100%	Novo Doce
+100%	Novo Recheio (C)
+100%	Recuperar Senha (J)
+100%	Registro (J)
+100%	Cardápio Cliente (H)
+100%	Pedidos Confeiteira (H)
+100%	Novo Pedido
+100%	Pedidos Cliente (E)
+100%	Cardápio Confeiteira(E)
