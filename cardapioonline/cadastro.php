@@ -12,19 +12,11 @@
 </head>
 
 <body>
-    <!-- Header contendo a div com logo e nome do sistema e flor posicionada no canto superior direito -->
-    <header>
-        <div class="divlogo">
-            <img src="imagens/logo_mirian.png" alt="Logo Mirian" class="logo">
-            <p>Mirian Cakes Confeitaria Artesanal</p>
-        </div>
+    <?php
 
-        <div class="divflor">
-            <img src="imagens/tulipas_header.png" alt="tulipas" class="tulipas">
+    include 'header_2.php';
 
-        </div>
-
-    </header>
+    ?>
 
     <!-- Article contém uma section de dados do usuario, essa section contém o formulário de dados -->
     <article>
@@ -123,18 +115,10 @@
         </section>
     </article>
 
-    <!-- footer inclui uma div com uma flor tulipa alinhada ao canto inferior esquerdo e uma div com o botão de voltar -->
-    <footer>
-        <div>
-            <img src="imagens/tulipas_footer.png" alt="tulipas" class="tulipasbaixo">
-        </div>
-
-        <div class="voltar">
-            <div class="icone_voltar">
-                <img src="imagens/icone_voltar.png" alt="icone_voltar">
-            </div>
-        </div>
-    </footer>
+    <?php
+    include 'footer_1.php';
+    ?>
+    
 </body>
 
 </html>

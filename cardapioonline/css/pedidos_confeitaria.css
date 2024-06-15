@@ -22,33 +22,7 @@ body {
     flex-direction: column;
 }
 
-/* Configurações do header com a logo e saudação ao usuário logado */
-.saudacao_logado {
-    background-color: #ADB895;
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-}
 
-/* Logo da empresa */
-#img_mirian {
-    padding: 0.7rem;
-    max-width: 7rem;
-    max-height: 7rem;
-    background-color: #FEEBEB;
-    border-radius: 50%;
-}
-
-/* Texto de saudação */
-#txt_ola_mirian {
-    font-family: "kalam", cursive;
-    font-style: normal;
-    font-size: 3rem;
-    letter-spacing: 0.3rem;
-    margin-left: 1rem;
-    color: #FEEBEB;
-    margin-top: 1.3rem;
-}
 /*configuração da div que agrupa o icone e a mensagem de pedidos, logo abaixo do header*/
 .identificador_pagina {
     display: flex;
@@ -301,27 +275,3 @@ td {
 /*fim da configuração das situações*/
 
 
-/*configuração do footer*/
-footer {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: auto;
-    
-}
-
-.icone_voltar {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-}
-
-.icone_voltar:hover {
-    background-color: #adb8957a;
-    border-radius: 100%;
-    scale: 1.05;
-}
-
-.icone_voltar>img {
-    max-width: 12rem;
-}

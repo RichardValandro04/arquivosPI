@@ -13,23 +13,12 @@
 </head>
 
 <body>
-    <!--HEADER-->
-    <header>
-        <!-- Nome e Logo do sistema -->
-        <div class="divlogo">
-            <img src="imagens/logo_mirian.png" alt="Logo Mirian" class="logo">
-            <p>Mirian Cakes <span>Confeitaria Artesanal</span></p>
 
-        </div>
+    <?php
 
-        <!-- Saudação ao usuário logado -->
-        <div class="saudacao_usuario">
-            <img src="imagens/icone_perfil.png" alt="Conta" class="icone_perfil">
-            <p>Olá, Marta!</p>
+    include 'header_3.php';
 
-        </div>
-    </header>
-
+    ?>
 
     <div class="identificador_pagina">
         <img src="imagens/icone_pedidos.png" alt="" id="icone_pessoa">
@@ -78,14 +67,12 @@
 
 
 
-    <!-- Footer inclui o botão de voltar -->
-    <footer>
-        <div class="voltar">
-            <div class="icone_voltar">
-                <img src="imagens/icone_voltar.png" alt="icone_voltar">
-            </div>
-        </div>
-    </footer>
+    <?php
+
+    include 'footer_2.php';
+
+    ?>
+    
 </body>
 
 </html>

@@ -93,28 +93,3 @@ button:hover {
     scale: 1.05;
 }
 
-
-/*Configuração do footer*/
-footer {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: auto;
-}
-
-/*Configuração do icone de voltar*/
-.icone_voltar {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-}
-
-.icone_voltar:hover {
-    background-color: #adb8957a;
-    border-radius: 100%;
-    scale: 1.05;
-}
-
-.icone_voltar>img {
-    max-width: 12rem;
-}

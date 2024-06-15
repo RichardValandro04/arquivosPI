@@ -23,33 +23,7 @@ body {
     flex-direction: column;
 }
 
-/* Configurações do header com a logo e saudação ao usuário logado */
-.saudacao_logado {
-    background-color: #ADB895;
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-}
 
-/* Logo da empresa */
-#img_mirian {
-    padding: 0.7rem;
-    max-width: 7rem;
-    max-height: 7rem;
-    background-color: #FEEBEB;
-    border-radius: 50%;
-}
-
-/* Texto de saudação */
-#txt_ola_mirian {
-    font-family: "kalam", cursive;
-    font-style: normal;
-    font-size: 3rem;
-    letter-spacing: 0.3rem;
-    margin-left: 1rem;
-    color: #FEEBEB;
-    margin-top: 1.3rem;
-}
 
 /* Configurações do identificador da página, que possui ícone de clientes e texto "Clientes" */
 .identificador_pagina {
@@ -209,40 +183,4 @@ td {
     margin-top: 5rem;
 }
 
-/*CONFIGURAÇÕES DO FOOTER*/
-footer {
-    display: flex;
-    margin-top: auto;
-}
 
-footer>div {
-    flex-grow: 1;
-}
-
-/*Configuração da div "voltar"*/
-.voltar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-/*Configuração do icone de voltar*/
-.icone_voltar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-}
-
-.icone_voltar:hover {
-    background-color: #adb8957a;
-    border-radius: 100%;
-    scale: 1.05;
-}
-
-/*Configuração da imagem da div "voltar"*/
-.icone_voltar>img {
-    max-width: 10rem;
-}

@@ -183,15 +183,11 @@
         </section>
     </article>
 
-    <!--FOOTER-->
-    <!-- Footer inclui o botão de voltar -->
-    <footer>
-        <div class="voltar">
-            <div class="icone_voltar">
-                <img src="imagens/icone_voltar.png" alt="icone_voltar">
-            </div>
-        </div>
-    </footer>
+    <?php
+
+    include 'footer_2.php';
+
+    ?>
 </body>
 
 </html>

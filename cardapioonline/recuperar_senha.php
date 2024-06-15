@@ -14,19 +14,11 @@
 
 <body>
 
-    <!-- Header contendo a div com logo e nome do sistema e flor posicionada no canto superior direito -->
-    <header>
-        <div class="divlogo">
-            <img src="imagens/logo_mirian.png" alt="Logo Mirian" class="logo">
-            <h2>Mirian Cakes Confeitaria Artesanal</h2>
-        </div>
+    <?php
 
-        <div class="divflor">
-            <img src="imagens/tulipas_header.png" alt="tulipas" class="tulipas">
+    include 'header_2.php';
 
-        </div>
-
-    </header>
+    ?>
 
 
     <!--nav que inclui uma tag "p", uma div "email" e um botão "enviar"-->
@@ -44,20 +36,9 @@
         <button type="submit" class="botao_enviar">ENVIAR</button>
     </nav>
 
-    <!--footer que inclui uma div com a imagem de uma tulipa(flor) e uma div "voltar" que inclui um botão de voltar-->
-    <footer>
-        <div>
-            <img src="imagens/tulipas_footer.png" alt="tulipas" class="tulipasbaixo">
-        </div>
-
-
-        <div class="voltar">
-            <div class="icone_voltar">
-                <img src="imagens/icone_voltar.png" alt="icone_voltar">
-            </div>
-        </div>
-
-    </footer>
+    <?php
+    include 'footer_1.php';
+    ?>
 
 </body>
 

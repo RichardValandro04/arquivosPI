@@ -30,13 +30,9 @@
 
   </nav>
 
-  <!--footer que inclui uma div "voltar", que inclui um botão de voltar-->
-  <footer>
-    <div class="icone_voltar">
-      <img src="imagens/icone_voltar.png" alt="icone_voltar">
-    </div>
-
-  </footer>
+  <?php
+    include 'footer_3.php';
+  ?>
 
 </body>
 

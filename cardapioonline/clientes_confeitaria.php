@@ -12,13 +12,11 @@
 
 <body>
 
-    <!-- Header inclui a logo da empresa e uma saudação à confeiteira que está logada -->
-    <header>
-        <div class="saudacao_logado">
-            <img src="imagens/logo_mirian.png" alt="Logo MirianCakes" id="img_mirian">
-            <h2 id="txt_ola_mirian">Olá, Mirian!</h2>
-        </div>
-    </header>
+    <?php
+
+        include 'header_1.php';
+
+    ?>
 
 
     <article>
@@ -77,12 +75,11 @@
         </section>
     </article>
 
-    <!-- Footer inclui o ícone de voltar, que retorna à pagina anterior -->
-    <footer>
-        <div class="icone_voltar">
-            <img src="imagens/icone_voltar.png" alt="botao_voltar">
-        </div>
-    </footer>
+    <?php
+
+    include 'footer_2.php';
+
+    ?>
 
 </body>
 

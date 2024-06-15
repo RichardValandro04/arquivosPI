@@ -12,21 +12,11 @@
 
 <body>
 
-    <header>
-        <!-- Nome e Logo do sistema -->
-        <div class="divlogo">
-            <img src="imagens/logo_mirian.png" alt="Logo Mirian" class="logo">
-            <p>Mirian Cakes <span>Confeitaria Artesanal</span></p>
+    <?php
 
-        </div>
+    include 'header_3.php';
 
-        <!-- Saudação ao usuário logado -->
-        <div class="saudacao_usuario">
-            <img src="imagens/icone_perfil.png" alt="Conta" class="icone_perfil">
-            <p>Olá, Marta!</p>
-
-        </div>
-    </header>
+    ?>
 
     <!-- Menu que leva o usuário as demais telas do sistema, cada div possui um item de menu -->
     <nav>

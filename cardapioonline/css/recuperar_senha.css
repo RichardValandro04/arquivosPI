@@ -22,56 +22,6 @@ body {
     background-color: #feebeb;
 }
 
-/*Configuração da tag "p"*/
-p {
-    color: #adb895;
-    font-size: 3rem;
-    font-weight: bold;
-    margin-top: 8rem;
-    margin-left: 2rem;
-}
-
-/*  H  E  A  D  E  R  */
-
-header {
-    display: flex;
-    flex-direction: line;
-}
-
-/* garantindo que as divs ocupem todo o espaço do header */
-header>div {
-    flex-grow: 1;
-}
-
-/* flor superior direita, alinhada utilizando flexbox */
-.divflor {
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* configuração de tamanho e posicionamento da logo do sistema */
-.divlogo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.divlogo>h2 {
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    color: #Adb895;
-    font-size: 2.5rem;
-    margin-left: 1.4rem;
-}
-
-.logo {
-    max-width: 10rem;
-    max-height: 10rem;
-    margin-left: 2rem;
-
-}
-
-/*  H  E  A  D  E  R  */
 
 /*Configuração do container principal */
 .container {
@@ -149,48 +99,3 @@ header>div {
     filter: grayscale(30%);
 }
 
-/*Configuração do footer*/
-footer {
-    display: flex;
-    margin-top: auto;
-}
-
-
-
-footer>div {
-    flex-grow: 1;
-}
-
-/*Configuração da div "voltar"*/
-.voltar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-/*Configuração do icone de voltar*/
-.icone_voltar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-}
-
-.icone_voltar:hover {
-    background-color: #adb8957a;
-    border-radius: 100%;
-    scale: 1.05;
-}
-
-.icone_voltar>img {
-    max-width: 12rem;
-}
-
-/*Configuração da imagem das tulipas*/
-.tulipas,
-.tulipasbaixo {
-    max-width: 20rem;
-    max-height: 20rem;
-}

@@ -48,13 +48,9 @@
   </nav>
 
 
-  <!-- footer inclui uma div que funciona como botao para retornar a tela anterior -->
-  <footer>
-    <div class="icone_voltar">
-      <img src="imagens/icone_voltar.png" alt="icone_voltar">
-    </div>
-
-  </footer>
+  <?php
+    include 'footer_3.php';
+  ?>
 
 </body>
 
